@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/radio_group_margin"
+    android:layout_marginRight="@dimen/radio_group_margin"
+    android:gravity="center_horizontal">
+
+    <RadioButton
+        android:gravity="center"
+        android:id="@+id/rbContacts"
+        style="@style/RadioButtonUnderlined"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_contacts"
+        android:text="@string/label_contacts"/>
+
+    <RadioButton
+        android:gravity="center"
+        android:id="@+id/rbFamous"
+        style="@style/RadioButtonUnderlined"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_famous"
+        android:text="@string/label_famous"/>
+
+    <!--
+    <RadioButton
+        android:gravity="center"
+        android:id="@+id/rbAnonymous"
+        style="@style/RadioButtonUnderlined"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_anonymous"
+        android:text="@string/label_anonymous"/>
+        -->
+</RadioGroup>

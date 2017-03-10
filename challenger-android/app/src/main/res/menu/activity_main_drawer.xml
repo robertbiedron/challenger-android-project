@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--
+        <item
+            android:id="@+id/profile"
+            android:title="@string/nav_bar_item_profile"/>
+            -->
+        <item
+            android:id="@+id/new_challenge"
+            android:title="@string/nav_bar_item_new_challenge"/>
+        <item
+            android:id="@+id/scoreboard"
+            android:title="@string/nav_bar_item_scoreboard"/>
+        <item
+            android:id="@+id/history"
+            android:title="@string/nav_bar_item_history"/>
+        <item
+            android:id="@+id/notifications"
+            android:title="@string/nav_bar_item_notifications"/>
+        <item
+            android:id="@+id/share"
+            android:checkable="false"
+            android:title="Share"/>
+        <item
+            android:id="@+id/invite"
+            android:checkable="false"
+            android:title="@string/nav_bar_item_invite_new_user"/>
+        <item
+            android:id="@+id/sign_out"
+            android:checkable="false"
+            android:title="@string/nav_bar_item_sign_out"/>
+    </group>
+
+</menu>

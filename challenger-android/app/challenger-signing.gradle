@@ -1,0 +1,17 @@
+android {
+    signingConfigs {
+        all {
+            keyAlias 'challenger_debug'
+            keyPassword 'android'
+            storeFile file('challenger_keystore.jks')
+            storePassword 'dfhdsf726fdh7'
+        }
+
+        debug {
+            keyAlias 'challenger_debug'
+            keyPassword 'android'
+            storeFile file('challenger_keystore.jks')
+            storePassword 'dfhdsf726fdh7'
+        }
+    }
+}

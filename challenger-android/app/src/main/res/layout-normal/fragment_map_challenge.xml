@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvNumber"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/score_number_normal"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                tools:text="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvDistance"
+                        style="@style/ListCountersBlueXLargeBold"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:drawableLeft="@mipmap/ic_list_distance"
+                        android:gravity="center"
+                        android:text="@string/no_data_value"
+                        tools:text="147.2 km" />
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        style="@style/ListCountersBlueXLargeBold"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:drawableLeft="@mipmap/ic_time"
+                        android:gravity="center"
+                        android:text="@string/no_data_value"
+                        tools:text="00:04:30" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvSpeed"
+                        style="@style/ListCountersBlueXLargeBold"
+                        android:layout_width="wrap_content"
+                        android:drawableLeft="@mipmap/ic_list_speed"
+                        android:gravity="center"
+                        android:text="@string/no_data_value"
+                        tools:text="10.5 km/h" />
+                    <TextView
+                        android:id="@+id/tvCalories"
+                        style="@style/ListCountersBlueXLarge"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:text="Burnt Calories"
+                         />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/table_bg"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include layout="@layout/view_map_table_header" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvUsers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="1dp" />
+        </LinearLayout>
+
+        <!--
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+            -->
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/btnPause"
+                style="@style/Button"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:textOff="@string/btnPause"
+                android:textOn="@string/btnResume"
+                />
+
+            <Button
+                android:id="@+id/btnEndRun"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:text="@string/btnEndRun" />
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

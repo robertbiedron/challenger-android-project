@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/ll_distance"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/footer"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="visible">
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:id="@+id/sbDistance"
+        app:dsb_max="100"
+        app:dsb_min="0"
+        app:dsb_value="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/tvKilometersHint"
+        style="@style/ListCountersXLarge"
+        tools:text="10.5 km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+</LinearLayout>

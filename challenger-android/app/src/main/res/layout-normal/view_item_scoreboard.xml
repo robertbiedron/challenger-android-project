@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvPosition"
+                android:layout_width="@dimen/avatar_inline_size"
+                android:layout_height="@dimen/avatar_inline_size"
+                tools:text = "1"
+                android:gravity="center"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="@dimen/avatar_inline_size"
+                android:layout_height="@dimen/avatar_inline_size"
+                android:layout_gravity="center"
+                android:src="@mipmap/avatar_placeholder" />
+
+            <TextView
+                android:id="@+id/tvName"
+                style="@style/UserListName.Inlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                tools:text="Jordan Smith" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDistance"
+                style="@style/ListCounters"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/no_data_value"
+                tools:text="100.2 km" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                style="@style/ListCounters"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/no_data_value"
+                tools:text="12 km" />
+
+            <TextView
+                android:id="@+id/tvSpeed"
+                style="@style/ListCounters"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/no_data_value"
+                tools:text="10.4 km/h" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLightGrey" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_change_pass"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+<ImageView
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/inner_logo"
+    android:layout_marginTop="@dimen/logo_margin"
+    android:layout_marginBottom="@dimen/logo_margin"/>
+
+    <EditText
+        style="@style/CreditsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etOldPassword"
+        android:hint="@string/old_password_hint"
+        android:layout_marginBottom="@dimen/edit_text_margin"
+        android:drawableLeft="@mipmap/ic_key"
+        android:inputType="textPassword" />
+    <EditText
+        style="@style/CreditsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNewPassword"
+        android:hint="@string/new_password_hint"
+        android:layout_marginBottom="@dimen/edit_text_margin"
+        android:drawableLeft="@mipmap/ic_key"
+        android:inputType="textPassword" />
+    <EditText
+        style="@style/CreditsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etConfirmPassword"
+        android:hint="@string/confirm_password_hint"
+        android:layout_marginBottom="@dimen/edit_text_margin"
+        android:imeOptions="actionDone"
+        android:drawableLeft="@mipmap/ic_key"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recover_password_label"
+        android:shadowColor="@color/colorAccentDark"
+        />
+</LinearLayout>

@@ -1,0 +1,140 @@
+<resources>
+    <string name="facebook_app_id">719390111531404</string>
+    <string name="gcm_app_id">141118222483</string>
+    <string name="google_maps_app_id">AIzaSyCC_tLJdEAT1H8onK0l7qlNeqOONU63AJA</string>
+    <string name="app_name">Challenger</string>
+
+    <!--navigation bar items-->
+    <string name="nav_bar_item_profile">Profile</string>
+    <string name="nav_bar_item_new_challenge">New challenge</string>
+    <string name="nav_bar_item_scoreboard">Scoreboard</string>
+    <string name="nav_bar_item_history">History</string>
+    <string name="nav_bar_item_notifications">Notifications</string>
+    <string name="nav_bar_item_invite_new_user">Invite new user</string>
+    <string name="nav_bar_item_sign_out">Sign out</string>
+
+    <!--Hints-->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="phone_hint">Phone</string>
+    <string name="old_password_hint">Old password</string>
+    <string name="new_password_hint">New password</string>
+    <string name="confirm_password_hint">Confirm new password</string>
+    <string name="search_hint">search your competitor</string>
+    <string name="profile_hint_name">name:</string>
+    <string name="profile_hint_email">email:</string>
+    <string name="profile_hint_phone">phone:</string>
+
+    <!--Button text-->
+    <string name="log_in_label">Log in</string>
+    <string name="sign_up_label">Sign up</string>
+    <string name="anonymous_label">Anonymous run</string>
+    <string name="forgot_password_label"><u>Forgot password?</u></string>
+    <string name="sign_up_now"><u>Create account</u></string>
+    <string name="recover_password_label">Recover Password</string>
+    <string name="change_pass_label"><u>Change password</u></string>
+    <string name="begin_label">Start Challenge</string>
+    <string name="select_distance">Choose Your Distance</string>
+    <string name="scoreboard_label">Previous challenges</string>
+    <string name="menu_edit_label">Edit</string>
+    <string name="menu_save_label">Save</string>
+    <string name="btnEndRun">End Run</string>
+    <string name="btnPause">Pause</string>
+    <string name="btnResume">Resume</string>
+
+    <!--Values wrappers-->
+    <string name="speed_wrapper">%1$s km/h</string>
+    <string name="distance_wrapper">%1$s km</string>
+    <string name="seconds_wrapper">%1$s s</string>
+
+    <!--Messages-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="internet_problem">No internet connection</string>
+    <string name="no_fused">This application requires Google Play Services to run!</string>
+    <string name="wrong_credentials_text">Wrong username or password</string>
+    <string name="wrong_email_text">User with that email already exists</string>
+    <string name="wrong_phone_text">User with that phone already exists</string>
+    <string name="credentials_update_text">Credentials successfully saved</string>
+    <string name="contacts_permission_text">Challenger can find your friends who are already using this app.</string>
+    <string name="choose_opponent">Choose at least one opponent</string>
+    <string name="choose_distance">Choose the distance first</string>
+    <string name="please_sign_up_to_add_others">Please register in order to add not anonymous runners</string>
+    <string name="please_sign_up_to_add_famous">Please register in order to add famous runners</string>
+
+    <!--Labels-->
+    <string name="label_anonymous">Anonymous</string>
+    <string name="label_famous">Featured</string>
+    <string name="label_contacts">Friends</string>
+
+    <!--Titles-->
+    <string name="title_log_in">Log in</string>
+    <string name="title_register">Registration</string>
+    <string name="title_new_challenge">New challenge</string>
+    <string name="title_history">History</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_my_result">Result of Challenge</string>
+    <string name="title_scoreboard">Scoreboard</string>
+    <string name="title_restore">Restore</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_sign_out">Sign out</string>
+    <string name="title_competitors">Competitors</string>
+
+    <!--Exceptions-->
+    <string name="exception_message_generic">There was an application error</string>
+    <string name="exception_message_loading_web_data_error_title">Connection error</string>
+    <string name="exception_message_loading_web_data_error">Can not load data from web. Please check your Internet connection and try again later</string>
+    <string name="exception_message_not_found_web_data_error">Requested object is not found</string>
+
+    <!--Messages-->
+    <string name="message_loading">Loading…</string>
+    <string name="message_gps_search">Please wait… Searching for GPS…</string>
+    <string name="message_wait_login">Logging in, please wait</string>
+    <string name="message_wait_log_out">Logging out, please wait</string>
+    <string name="message_wait_registration">Registration, please wait</string>
+    <string name="message_wait_pass_recover">Password reset, please wait</string>
+    <string name="message_pass_has_been_reset">Your password has been reset successfully! Your new password has been sent to current email address.</string>
+    <string name="message_profile_has_been_updated">Your profile has been updated successfully!</string>
+    <string name="message_pass_has_been_changed">Your password has been changed successfully! Please Log in to your account using your new password.</string>
+    <string name="message_really_wanna_sign_out">Do you really want to Sign out?</string>
+    <string name="message_no_history">This page will display completed challenges. Your current history is empty.</string>
+    <string name="message_no_notifications">This page will display notifications from users who have challenged you.\nThere are no new notifications.</string>
+    <string name="message_no_friends">This page will display competitors from your contacts list and Facebook. Currently, no one from your friends don\'t use this app.</string>
+    <string name="message_no_anonymous">This page will display anonymous competitors.</string>
+    <string name="message_no_famous">This page will display famous competitors.</string>
+    <string name="message_challenge_started">Challenge started</string>
+    <string name="message_gps_disabled">Your GPS seems to be disabled, do you want to enable it?</string>
+
+    <!--Dialogs-->
+    <string name="dialog_ok_button_title">OK</string>
+    <string name="dialog_yes_button_title">Yes</string>
+    <string name="dialog_no_button_title">No</string>
+    <string name="dialog_cancel_button_title">Cancel</string>
+    <string name="dialog_title_pick_a_photo">Pick a Photo</string>
+    <string name="dialog_item_take_photo">Take Photo</string>
+    <string name="dialog_item_choose_from_library">Choose from Library</string>
+    <string name="dialog_item_cancel">Cancel</string>
+    <string name="exit_hint">Click \"BACK\" twice to exit</string>
+    <string name="no_data_value">No data</string>
+    <string name="button_share">Share</string>
+    <string name="message_later_feature">This feature will be soon</string>
+    <string name="rb_overall">Overall</string>
+    <string name="rb_friends">Friends</string>
+    <string name="rb_similar">Similar</string>
+    <string name="title_share_via">Share this via</string>
+    <string name="title_join_me">Join me in</string>
+    <string name="title_accept_the_challenge">Accept the challenge! Show what You can do!</string>
+    <string name="google_play_link">https://play.google.com/store/apps/details?id=com.alobha.challenger</string>
+
+
+    <!--permissions-->
+    <string name="location_permission_dialog_title">Location access</string>
+    <string name="location_permission_dialog_message">This app requires access to geolocation. Please give Location permission</string>
+    <string name="location_permission_dialog_message_lower_m">You have turned off location. Open location option?</string>
+
+    <string name="contacts_permission_dialog_title">Read contacts permission</string>
+    <string name="contacts_permission_dialog_message">To challenge with your friends please give your Contacts permission</string>
+
+    <string name="permission_granted">Permission granted!</string>
+    <string name="permission_denied">Permission denied!</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetBottom="0dp"
+    android:drawable="@mipmap/distance_pointer"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
